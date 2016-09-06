@@ -32,6 +32,7 @@ No apport report written because the error message indicates its a followup erro
 
 E: Sub-process /usr/bin/dpkg returned an error code (1)
 
+======================================================================================================================
 
 #The problem exists because runit depends on upstart and Ubuntu changed to using systemd in 16.04 .The workaround
 is as follows:
